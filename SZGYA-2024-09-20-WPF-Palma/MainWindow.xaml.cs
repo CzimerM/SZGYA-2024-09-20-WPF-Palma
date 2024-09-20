@@ -111,9 +111,14 @@ namespace SZGYA_2024_09_20_WPF_Palma
             ujDesszert.Egyseg = txbUjEgyseg.Text;
 
             int ar = -1;
-            if (txbUjAr.Text != "" && !int.TryParse(txbUjAr.Text, out ar))
+            if (txbUjAr.Text == "")
             {
                 MessageBox.Show("Kérem adja meg a desszert árát!", "Hiba!");
+                return;
+            }
+            if (!int.TryParse(txbUjAr.Text, out ar))
+            {
+                MessageBox.Show("Kérem egész számot adjon meg a desszert árának", "Hiba!");
                 return;
             }
             ujDesszert.Ar = ar;

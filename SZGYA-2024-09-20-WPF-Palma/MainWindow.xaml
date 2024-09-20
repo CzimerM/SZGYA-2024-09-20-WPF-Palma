@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SZGYA_2024_09_20_WPF_Palma"
         mc:Ignorable="d"
-        Title="Pálma étterem" Height="320" Width="800" MinHeight="320" MinWidth="650">
+        Title="Pálma étterem" Height="340" Width="800" MinHeight="340" MinWidth="650">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*" />
@@ -28,6 +28,7 @@
                     <TextBox IsReadOnly="True" x:Name="txbMaiAjanlat">Mai ajánlatunk:</TextBox>
                     <TextBox IsReadOnly="True" x:Name="txbDijnyertesMennyiseg">[x] féle díjnyertes édességből választhat.</TextBox>
                 </StackPanel>
+                <Image x:Name="torta1883" Source="pack://application:,,,/src/torta1883.jpg" Height="80px" Grid.Column="1"></Image>
             </Grid>
             <TextBox IsReadOnly="True" Width="200px" HorizontalAlignment="Left">Legdrágább desszertünk</TextBox>
             <Grid Margin="30,0">

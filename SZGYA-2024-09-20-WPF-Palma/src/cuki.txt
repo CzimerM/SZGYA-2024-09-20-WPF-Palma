@@ -1,2 +1,3 @@
 ﻿átoksüti;gyomorrobbantó;false;1000;db
 lapos kő;szikla;true;1500;db
+asdasd;asdasd;false;3250;asd
