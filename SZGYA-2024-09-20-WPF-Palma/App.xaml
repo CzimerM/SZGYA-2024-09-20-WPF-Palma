@@ -1,0 +1,9 @@
+﻿<Application x:Class="SZGYA_2024_09_20_WPF_Palma.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SZGYA_2024_09_20_WPF_Palma"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
